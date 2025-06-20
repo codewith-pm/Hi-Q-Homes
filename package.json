@@ -1,0 +1,14 @@
+{
+  "name": "hi-q-homes-social",
+  "version": "1.0.0",
+  "description": "Hi-Q Homes social media landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
