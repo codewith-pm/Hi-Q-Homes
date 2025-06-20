@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Gallery - Hi-Q Homes Madurai</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="View our luxury portfolio of construction projects, interior designs, and handcrafted teak wood furniture creations at Hi-Q Homes Madurai." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <div class="logo">H-Q</div>
+          <div class="brand-text">
+            <h2>Hi-Q Homes</h2>
+            <span class="tagline">Quality & Elegance</span>
+          </div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="page2.html" class="nav-link active">Gallery</a></li>
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#services" class="nav-link">Services</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+      <div class="container">
+        <h1>Our Luxury Portfolio</h1>
+        <p>Explore our finest work in premium construction, luxury interiors, and handcrafted teak wood furniture</p>
+      </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+      <div class="container">
+        <div class="category-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="construction">Construction</button>
+          <button class="filter-btn" data-filter="interior">Interiors</button>
+          <button class="filter-btn" data-filter="furniture">Furniture</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+      <div class="container">
+        <div class="gallery-items">
+          <!-- Construction Projects -->
+          <div class="gallery-item" data-category="construction">
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Villa Construction Elevation" />
+            <div class="gallery-overlay">
+              <h3>Premium Villa Elevation</h3>
+              <p>Royal Package Construction</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="construction">
+            <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern Residential Complex Elevation" />
+            <div class="gallery-overlay">
+              <h3>Modern Residential Complex</h3>
+              <p>Multi-story Luxury Apartments</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="construction">
+            <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Contemporary House Elevation" />
+            <div class="gallery-overlay">
+              <h3>Contemporary House Design</h3>
+              <p>Premium Package Construction</p>
+            </div>
+          </div>
+
+          <!-- Interior Projects -->
+          <div class="gallery-item" data-category="interior">
+            <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Living Room Interior" />
+            <div class="gallery-overlay">
+              <h3>Luxury Living Room</h3>
+              <p>Complete Interior Design</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="interior">
+            <img src="https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Premium Bedroom Interior" />
+            <div class="gallery-overlay">
+              <h3>Premium Master Bedroom</h3>
+              <p>Teak Wood Interior Design</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="interior">
+            <img src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern Kitchen Interior" />
+            <div class="gallery-overlay">
+              <h3>Luxury Modern Kitchen</h3>
+              <p>Premium Modular Design</p>
+            </div>
+          </div>
+
+          <!-- Furniture Projects -->
+          <div class="gallery-item" data-category="furniture">
+            <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Handcrafted Teak Wood Dining Set" />
+            <div class="gallery-overlay">
+              <h3>Handcrafted Teak Dining Set</h3>
+              <p>Premium 6-Seater Collection</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="furniture">
+            <img src="https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Teak Wood Sofa" />
+            <div class="gallery-overlay">
+              <h3>Luxury Teak Wood Sofa</h3>
+              <p>3+1+1 Premium Set</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="furniture">
+            <img src="https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Custom Teak Wardrobe" />
+            <div class="gallery-overlay">
+              <h3>Custom Teak Wood Wardrobe</h3>
+              <p>Bespoke Built-in Design</p>
+            </div>
+          </div>
+
+          <!-- Commercial Projects -->
+          <div class="gallery-item" data-category="commercial">
+            <img src="https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fine Dining Restaurant Interior" />
+            <div class="gallery-overlay">
+              <h3>Fine Dining Restaurant</h3>
+              <p>Complete Commercial Interior</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="commercial">
+            <img src="https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corporate Office Interior" />
+            <div class="gallery-overlay">
+              <h3>Corporate Office Design</h3>
+              <p>Premium Office Interior</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="commercial">
+            <img src="https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Hotel Lobby" />
+            <div class="gallery-overlay">
+              <h3>Luxury Hotel Lobby</h3>
+              <p>Hospitality Interior Design</p>
+            </div>
+          </div>
+
+          <!-- More Construction Elevations -->
+          <div class="gallery-item" data-category="construction">
+            <img src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beach House Elevation" />
+            <div class="gallery-overlay">
+              <h3>Coastal Beach House</h3>
+              <p>Luxury Coastal Construction</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="construction">
+            <img src="https://images.pexels.com/photos/1396119/pexels-photo-1396119.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Farm House Elevation" />
+            <div class="gallery-overlay">
+              <h3>Premium Farm House</h3>
+              <p>Rural Luxury Construction</p>
+            </div>
+          </div>
+
+          <!-- Additional Furniture -->
+          <div class="gallery-item" data-category="furniture">
+            <img src="https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Teak Wood Bed Set" />
+            <div class="gallery-overlay">
+              <h3>King Size Teak Bed</h3>
+              <p>Home Series Collection</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Clients Say</h2>
+          <p>Testimonials from our satisfied luxury clients</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"Hi-Q Homes delivered exceptional luxury quality in our villa construction. The handcrafted teak wood work is simply outstanding. Truly premium service!"</p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Rajesh Kumar</h4>
+              <span>Villa Owner, Madurai</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"The luxury interior design team at Hi-Q Homes transformed our space beautifully. Their attention to detail and use of premium materials is truly impressive."</p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Priya Sharma</h4>
+              <span>Interior Design Client</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <p>"We ordered the complete Home Series furniture set for our daughter's wedding. The craftsmanship and luxury quality exceeded all our expectations."</p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Murugan Pillai</h4>
+              <span>Furniture Customer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Start Your Luxury Project?</h2>
+          <p>Let's discuss your premium construction, interior design, or furniture needs</p>
+          <div class="cta-buttons">
+            <a href="index.html#contact" class="btn btn-primary">Get Premium Quote</a>
+            <a href="tel:8838142079" class="btn btn-secondary">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Hi-Q Homes</h3>
+            <p>Creating luxury spaces with quality & elegance since 2017. Your trusted partner for premium construction, luxury interiors, and handcrafted teak wood furniture in Madurai.</p>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Premium Services</h4>
+            <ul>
+              <li>Luxury Construction</li>
+              <li>Interior Design</li>
+              <li>Handcrafted Teak Furniture</li>
+              <li>Expert Fabrication</li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>📞 88381 42079 (Madurai)</p>
+            <p>📞 9787115701 (Usilampatti)</p>
+            <p>📍 Near Chinthamani Signal, Madurai</p>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2024 Hi-Q Homes Madurai. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      /* Gallery Specific Styles */
+      .gallery-hero {
+        background: var(--wine-gradient);
+        color: var(--bg-white);
+        padding: 150px 0 80px;
+        text-align: center;
+        position: relative;
+      }
+
+      .gallery-hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="luxury" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M25,5 L45,25 L25,45 L5,25 Z" fill="none" stroke="%23D4AF37" stroke-width="1" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23luxury)"/></svg>') repeat;
+        opacity: 0.3;
+      }
+
+      .gallery-hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        z-index: 2;
+      }
+
+      .gallery-hero p {
+        font-size: 1.3rem;
+        opacity: 0.9;
+        font-family: 'Georgia', serif;
+        position: relative;
+        z-index: 2;
+      }
+
+      .gallery-categories {
+        padding: 2rem 0;
+        background: var(--bg-cream);
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .category-filters {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .filter-btn {
+        padding: 0.8rem 1.5rem;
+        border: 2px solid var(--primary-color);
+        background: var(--bg-white);
+        color: var(--primary-color);
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 500;
+        font-family: 'Georgia', serif;
+      }
+
+      .filter-btn:hover,
+      .filter-btn.active {
+        background: var(--wine-gradient);
+        color: var(--bg-white);
+        border-color: var(--wine-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow);
+      }
+
+      .gallery-grid {
+        padding: 4rem 0;
+        background: var(--bg-white);
+      }
+
+      .gallery-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .gallery-item {
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: 2px solid var(--border-color);
+      }
+
+      .gallery-item:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-hover);
+        border-color: var(--gold-accent);
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.1);
+      }
+
+      .gallery-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--wine-gradient);
+        color: white;
+        padding: 2rem 1.5rem 1.5rem;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover .gallery-overlay {
+        transform: translateY(0);
+      }
+
+      .gallery-overlay h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .gallery-overlay p {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        font-family: 'Georgia', serif;
+      }
+
+      .testimonials {
+        background: var(--bg-cream);
+        padding: 5rem 0;
+      }
+
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .testimonial-card {
+        background: var(--bg-white);
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: var(--shadow);
+        transition: transform 0.3s ease;
+        border-left: 4px solid var(--gold-accent);
+      }
+
+      .testimonial-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-hover);
+      }
+
+      .testimonial-content {
+        margin-bottom: 1.5rem;
+      }
+
+      .testimonial-content p {
+        font-style: italic;
+        color: var(--text-wine);
+        line-height: 1.6;
+        font-size: 1.1rem;
+        font-family: 'Georgia', serif;
+      }
+
+      .testimonial-author h4 {
+        color: var(--primary-color);
+        margin-bottom: 0.3rem;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .testimonial-author span {
+        color: var(--text-wine);
+        font-size: 0.9rem;
+        font-family: 'Georgia', serif;
+      }
+
+      .cta-section {
+        background: var(--wine-gradient);
+        color: var(--bg-white);
+        padding: 4rem 0;
+        text-align: center;
+        position: relative;
+      }
+
+      .cta-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cta" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="2" fill="%23D4AF37" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23cta)"/></svg>') repeat;
+        opacity: 0.3;
+      }
+
+      .cta-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .cta-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .cta-content p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+        font-family: 'Georgia', serif;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .cta-section .btn-primary {
+        background: var(--bg-white);
+        color: var(--primary-color);
+      }
+
+      .cta-section .btn-secondary {
+        background: transparent;
+        color: var(--bg-white);
+        border-color: var(--bg-white);
+      }
+
+      .cta-section .btn-secondary:hover {
+        background: var(--bg-white);
+        color: var(--primary-color);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .gallery-hero h1 {
+          font-size: 2.5rem;
+        }
+
+        .gallery-items {
+          grid-template-columns: 1fr;
+        }
+
+        .category-filters {
+          justify-content: flex-start;
+          overflow-x: auto;
+          padding-bottom: 1rem;
+        }
+
+        .filter-btn {
+          white-space: nowrap;
+        }
+
+        .cta-content h2 {
+          font-size: 2rem;
+        }
+
+        .cta-buttons {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .cta-buttons .btn {
+          width: 200px;
+        }
+      }
+
+      /* Gallery Filter Animation */
+      .gallery-item.hidden {
+        opacity: 0;
+        transform: scale(0.8);
+        transition: all 0.3s ease;
+      }
+
+      .gallery-item.visible {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 0.3s ease;
+      }
+    </style>
+
+    <script>
+      // Gallery Filter Functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            // Update active button
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Filter gallery items
+            galleryItems.forEach(item => {
+              const category = item.getAttribute('data-category');
+              
+              if (filter === 'all' || category === filter) {
+                item.style.display = 'block';
+                setTimeout(() => {
+                  item.classList.remove('hidden');
+                  item.classList.add('visible');
+                }, 10);
+              } else {
+                item.classList.remove('visible');
+                item.classList.add('hidden');
+                setTimeout(() => {
+                  item.style.display = 'none';
+                }, 300);
+              }
+            });
+          });
+        });
+
+        // Initialize all items as visible
+        galleryItems.forEach(item => {
+          item.classList.add('visible');
+        });
+      });
+    </script>
+  </body>
+</html>
