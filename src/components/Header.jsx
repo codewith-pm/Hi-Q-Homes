@@ -45,7 +45,7 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-wine-950 text-white py-2 hidden lg:block">
+      <div className="bg-gradient-to-r from-amber-900 to-orange-900 text-white py-2 hidden lg:block">
         <div className="container-custom">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-6">
@@ -82,14 +82,14 @@ const Header = () => {
             <Link to="/" className="flex items-center space-x-4">
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="relative w-16 h-16 wine-gradient rounded-full flex items-center justify-center text-white font-bold text-xl font-playfair overflow-hidden"
+                className="relative w-16 h-16 bg-gradient-to-br from-amber-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl font-playfair overflow-hidden"
               >
                 <span className="relative z-10">H-Q</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full animate-logo-shine"></div>
               </motion.div>
               <div>
-                <h2 className="text-2xl font-bold text-wine-900 font-playfair">Hi-Q Homes</h2>
-                <span className="text-wine-700 text-sm italic font-georgia">Quality & Elegance</span>
+                <h2 className="text-2xl font-bold text-amber-900 font-playfair">Hi-Q Homes</h2>
+                <span className="text-amber-700 text-sm italic font-georgia">Quality & Elegance</span>
               </div>
             </Link>
 
@@ -100,10 +100,10 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => handleNavClick(item.href, item.hash)}
-                  className="relative text-wine-900 hover:text-wine-700 font-medium transition-colors duration-300 group"
+                  className="relative text-amber-900 hover:text-amber-700 font-medium transition-colors duration-300 group"
                 >
                   {item.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 wine-gradient transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-600 to-orange-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               ))}
               <motion.a
@@ -119,7 +119,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden p-2 text-wine-900"
+              className="lg:hidden p-2 text-amber-900"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -133,7 +133,7 @@ const Header = () => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-white/95 backdrop-blur-md border-t border-wine-200"
+              className="lg:hidden bg-white/95 backdrop-blur-md border-t border-amber-200"
             >
               <div className="container-custom py-4">
                 <div className="flex flex-col space-y-4">
@@ -142,7 +142,7 @@ const Header = () => {
                       key={item.name}
                       to={item.href}
                       onClick={() => handleNavClick(item.href, item.hash)}
-                      className="text-wine-900 hover:text-wine-700 font-medium py-2 transition-colors duration-300"
+                      className="text-amber-900 hover:text-amber-700 font-medium py-2 transition-colors duration-300"
                     >
                       {item.name}
                     </Link>
