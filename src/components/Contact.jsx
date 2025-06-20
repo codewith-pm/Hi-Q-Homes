@@ -89,7 +89,7 @@ Thank you!`
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-br from-amber-400/20 to-orange-500/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-br from-yellow-400/20 to-amber-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"contact-pattern\" width=\"40\" height=\"40\" patternUnits=\"userSpaceOnUse\"><path d=\"M20,5 L35,20 L20,35 L5,20 Z\" fill=\"none\" stroke=\"%23D97706\" stroke-width=\"1\" opacity=\"0.1\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23contact-pattern)\"/>%3C/svg%3E')] opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"%3E%3Cdefs%3E%3Cpattern id=\"contact-pattern\" width=\"40\" height=\"40\" patternUnits=\"userSpaceOnUse\"%3E%3Cpath d=\"M20,5 L35,20 L20,35 L5,20 Z\" fill=\"none\" stroke=\"%23D97706\" stroke-width=\"1\" opacity=\"0.1\"/%3E%3C/pattern%3E%3C/defs%3E%3Crect width=\"100\" height=\"100\" fill=\"url(%23contact-pattern)\"/%3E%3C/svg%3E')] opacity-30"></div>
       </div>
 
       <div className="container-custom relative z-10">
